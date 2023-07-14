@@ -33,4 +33,4 @@ jobs:
         tags: dmbexperimentalregistry.azurecr.io/dmb-experimental-testweb-app:${{ github.sha }}
         file: aspnet-core-dotnet-core/Dockerfile
         
-    -name done
+    -name: done
