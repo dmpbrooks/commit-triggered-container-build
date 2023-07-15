@@ -2,7 +2,8 @@ name: Docker
 
 on:
   push:
-    tags: ["v*.*.*"]
+      branches:
+        - main
 
 env:
   IMAGE_NAME: testweb-app
